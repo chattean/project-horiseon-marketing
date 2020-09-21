@@ -33,17 +33,13 @@ header nav ul {
     margin-right: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-/* .header div ul {
     list-style-type: none;
-} */
+}
 
 header nav ul li {
     display: inline;
     margin-left: 25px;
 }
-
 
 /* Body Styles : This section is dedicated to all the styles related to the body of the page */
 /* This style applies to the whole body of the page */
@@ -61,7 +57,7 @@ p {
     font-size: 16px;
 }
 
-
+/* Hero/ Jumbotron Style */
 .hero {
     height: 800px;
     width: 100%;
@@ -71,22 +67,44 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Content Styles */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.content div{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* All the images under Content div */
+.content img{
+    max-height: 200px;
+    margin-right: 25px;
+}
+.social-media-marketing img{
+    float:left;
+} 
+.online-reputation-management img{
+    float:right;
+}
+.search-engine-optimization img{
+    float:left;
+}
+
+/* All the H2 under Content div */
+.content h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Benifits Styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -98,106 +116,19 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
+.benefits img {
+    max-width: 150px;
+    display: block;
+    margin: 10px;
 }
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* Footer Styles : Last but not least its the footer styles */
