@@ -117,7 +117,7 @@ body p {
 
 }
 /* Sub Divs under Benefits section */
-.benefits div {
+.benefits article {
     margin-bottom: 32px;
     color: #ffffff;
 }
